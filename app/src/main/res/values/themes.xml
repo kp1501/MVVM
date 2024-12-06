@@ -1,0 +1,77 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+<!--    text view styles-->
+    <style name="HeadingText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_32ssp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/lora_regular</item>
+    </style>
+
+    <style name="LargeText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_32ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ParagraphText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TitleText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextRegular" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextRegularGrey" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/whitey_grey</item>
+    </style>
+
+    <style name="TextMedium" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMediumNone" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextMediumBlack" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+<!--    button styles-->
+    <style name="TintButton" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+<!--    edittext styles-->
+    <style name="greyEdittext" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/light_grey</item>
+    </style>
+
+</resources>

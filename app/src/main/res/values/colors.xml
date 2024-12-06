@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_transparent">#23FFFFFF</color>
+
+    <!--    custom-->
+    <color name="black_shadow">#A0000000</color>
+    <color name="black_dark_shadow">#D6000000</color>
+    <color name="tint">#46C9DA</color>
+    <color name="grey">#373737</color>
+    <color name="aqua">#E2535252</color>
+    <color name="light_grey">#787878</color>
+    <color name="whitey_grey">#9F9E9E</color>
+</resources>
